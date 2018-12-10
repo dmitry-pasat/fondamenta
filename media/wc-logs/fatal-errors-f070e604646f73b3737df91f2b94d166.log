@@ -1,0 +1,70 @@
+2018-04-29T22:14:40+00:00 CRITICAL Uncaught Error: Call to undefined function ideapark_init_theme_mods() in /home/fondame/domains/fondamenta.info/public_html/wp-content/plugins/ideapark-theme-functionality/megamenu/mega-menu.php:28
+Stack trace:
+#0 /home/fondame/domains/fondamenta.info/public_html/wp-includes/class-wp-hook.php(286): Ideaperk_Mega_Menu->init('')
+#1 /home/fondame/domains/fondamenta.info/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/fondame/domains/fondamenta.info/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/fondame/domains/fondamenta.info/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/fondame/domains/fondamenta.info/public_html/wp-config.php(93): require_once('/home/fondame/d...')
+#5 /home/fondame/domains/fondamenta.info/public_html/wp-load.php(37): require_once('/home/fondame/d...')
+#6 /home/fondame/domains/fondamenta.info/public_html/wp-admin/admin-ajax.php(22): require_once('/home/fondame/d...')
+#7 {main}
+  thrown
+
+2018-05-17T16:27:40+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in D:\realxampp\htdocs\fondamenta\wp-includes\class-wp-hook.php on line 288 and defined in D:\realxampp\htdocs\fondamenta\wp-content\plugins\wordpress-seo-premium\admin\links\class-link-watcher.php:41
+Stack trace:
+#0 D:\realxampp\htdocs\fondamenta\wp-includes\class-wp-hook.php(288): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 D:\realxampp\htdocs\fondamenta\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(0, Array)
+#2 D:\realxampp\htdocs\fondamenta\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 D:\realxampp\htdocs\fondamenta\wp-includes\post.php(3581): do_action('save_post', 0, NULL, false)
+#4 D:\realxampp\htdocs\fondamenta\wp-includes\revision.php(300): wp_insert_post(Array)
+#5 D:\realxampp\htdocs\fondamenta\wp-admin\includes\post.php(1724): _wp_put_post_revision(Array, true)
+#6 D:\realxampp\htdocs\fondamenta\wp-admin\includes\post.php(1821): wp_create_post_autosave(Ar
+
+2018-06-19T12:15:51+00:00 CRITICAL Cannot redeclare show_attributes() (previously declared in D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce-breadcrumb-permalinks\includes\class-wcbp.php:146)
+
+2018-06-19T12:17:24+00:00 CRITICAL Cannot redeclare show_attributes() (previously declared in D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce-breadcrumb-permalinks\includes\class-wcbp.php:146)
+
+2018-06-19T12:18:21+00:00 CRITICAL Cannot redeclare show_attributes() (previously declared in D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce-breadcrumb-permalinks\includes\class-wcbp.php:146)
+
+2018-06-19T12:18:56+00:00 CRITICAL Cannot redeclare show_attrib() (previously declared in D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce-breadcrumb-permalinks\includes\class-wcbp.php:147)
+
+2018-06-19T12:19:38+00:00 CRITICAL Cannot redeclare show_attrib() (previously declared in D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce-breadcrumb-permalinks\includes\class-wcbp.php:145)
+
+2018-06-19T12:21:16+00:00 CRITICAL Uncaught Error: Call to a member function list_attributes() on null in D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce-breadcrumb-permalinks\includes\class-wcbp.php:142
+Stack trace:
+#0 D:\realxampp\htdocs\fondamenta\wp-includes\class-wp-hook.php(288): WCBP->post_type_link('http://localhos...', Object(WP_Post), false)
+#1 D:\realxampp\htdocs\fondamenta\wp-includes\plugin.php(203): WP_Hook->apply_filters('http://localhos...', Array)
+#2 D:\realxampp\htdocs\fondamenta\wp-includes\link-template.php(298): apply_filters('post_type_link', 'http://localhos...', Object(WP_Post), false, false)
+#3 D:\realxampp\htdocs\fondamenta\wp-includes\link-template.php(148): get_post_permalink(Object(WP_Post), false, false)
+#4 D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1680): get_permalink(Object(WP_Post))
+#5 D:\realxampp\htdocs\fondamenta\wp-content\themes\kidz\woocommerce\cart\cart.php(52): WC_Product->get_permalink(Array)
+#6 D:\realxampp\htdocs\fondamenta\
+
+2018-06-19T12:22:41+00:00 CRITICAL Uncaught Error: Call to a member function list_attributes() on null in D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce-breadcrumb-permalinks\includes\class-wcbp.php:144
+Stack trace:
+#0 D:\realxampp\htdocs\fondamenta\wp-includes\class-wp-hook.php(288): WCBP->post_type_link('http://localhos...', Object(WP_Post), false)
+#1 D:\realxampp\htdocs\fondamenta\wp-includes\plugin.php(203): WP_Hook->apply_filters('http://localhos...', Array)
+#2 D:\realxampp\htdocs\fondamenta\wp-includes\link-template.php(298): apply_filters('post_type_link', 'http://localhos...', Object(WP_Post), false, false)
+#3 D:\realxampp\htdocs\fondamenta\wp-includes\link-template.php(148): get_post_permalink(Object(WP_Post), false, false)
+#4 D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1680): get_permalink(Object(WP_Post))
+#5 D:\realxampp\htdocs\fondamenta\wp-content\themes\kidz\woocommerce\cart\cart.php(52): WC_Product->get_permalink(Array)
+#6 D:\realxampp\htdocs\fondamenta\
+
+2018-06-19T12:34:54+00:00 CRITICAL Uncaught Error: Call to a member function list_attributes() on null in D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce-breadcrumb-permalinks\includes\class-wcbp.php:144
+Stack trace:
+#0 D:\realxampp\htdocs\fondamenta\wp-includes\class-wp-hook.php(288): WCBP->post_type_link('http://localhos...', Object(WP_Post), false)
+#1 D:\realxampp\htdocs\fondamenta\wp-includes\plugin.php(203): WP_Hook->apply_filters('http://localhos...', Array)
+#2 D:\realxampp\htdocs\fondamenta\wp-includes\link-template.php(298): apply_filters('post_type_link', 'http://localhos...', Object(WP_Post), false, false)
+#3 D:\realxampp\htdocs\fondamenta\wp-includes\link-template.php(148): get_post_permalink(Object(WP_Post), false, false)
+#4 D:\realxampp\htdocs\fondamenta\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1680): get_permalink(Object(WP_Post))
+#5 D:\realxampp\htdocs\fondamenta\wp-content\themes\kidz\woocommerce\cart\cart.php(52): WC_Product->get_permalink(Array)
+#6 D:\realxampp\htdocs\fondamenta\
+
+2018-12-06T15:05:19+00:00 CRITICAL Maximum execution time of 100 seconds exceeded
+
+2018-12-06T15:05:19+00:00 CRITICAL Maximum execution time of 100 seconds exceeded
+
+2018-12-06T15:05:20+00:00 CRITICAL Maximum execution time of 100 seconds exceeded
+
+2018-12-06T15:16:19+00:00 CRITICAL Maximum execution time of 100 seconds exceeded
+

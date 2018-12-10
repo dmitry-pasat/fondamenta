@@ -1,0 +1,87 @@
+# Copyright (C) 2016 Kidz Theme Wishlist
+# This file is distributed under the same license as the Kidz Theme Wishlist package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kidz Theme Wishlist 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ideapark-wishlist\n"
+"POT-Creation-Date: 2016-11-17 06:50:59+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-ideapark-wishlist.php:149
+msgid "Wishlist"
+msgstr ""
+
+#: includes/class-ideapark-wishlist.php:149
+#: includes/class-ideapark-wishlist.php:257
+msgid "Remove from Wishlist"
+msgstr ""
+
+#: includes/class-ideapark-wishlist.php:149
+#: includes/class-ideapark-wishlist.php:256
+msgid "Add to Wishlist"
+msgstr ""
+
+#: includes/class-ideapark-wishlist.php:311
+#: includes/class-ideapark-wishlist.php:320
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: templates/wishlist.php:35
+msgid "Product"
+msgstr ""
+
+#: templates/wishlist.php:38
+msgid "Price"
+msgstr ""
+
+#: templates/wishlist.php:41
+msgid "Stock Status"
+msgstr ""
+
+#: templates/wishlist.php:56
+msgid "Remove"
+msgstr ""
+
+#: templates/wishlist.php:84
+msgid "Share Wishlist:"
+msgstr ""
+
+#: templates/wishlist.php:107
+msgid "Share Link:"
+msgstr ""
+
+#: templates/wishlist.php:126
+msgid "The wishlist is currently empty."
+msgstr ""
+
+#: templates/wishlist.php:129
+msgid "Click the %s icons to add products"
+msgstr ""
+
+#: templates/wishlist.php:134
+msgid "Return To Shop"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Kidz Theme Wishlist"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wp.ideapark.kz/kidz/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Woocommerce Wishlist plugin for the Kidz theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ideapark.kz"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ideapark.kz"
+msgstr ""

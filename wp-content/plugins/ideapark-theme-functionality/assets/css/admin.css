@@ -1,0 +1,22 @@
+.ideapark-custom-field-panel label {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	padding-right: 10px;
+	padding-top: 3px;
+}
+
+.ideapark-custom-field-panel input[type=text],
+.ideapark-custom-field-panel .color-picker {
+	display: inline-block;
+	width: 78%;
+	vertical-align: top;
+}
+
+.ideapark-custom-field-panel .color-picker input[type=text] {
+	width: 80px;
+}
+
+.ideapark-custom-field-panel .form-field {
+	margin-bottom: 15px;
+}

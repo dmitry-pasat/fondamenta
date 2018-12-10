@@ -1,0 +1,79 @@
+/*
+Theme Name: Kidz-Child
+Theme URI: http://wp.ideapark.kz/kidz/
+Text Domain: kidz-child
+Description: Modern Retina ready Responsive WordPress Blog Theme
+License: GNU General Public License v2.0 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.1
+Template: kidz
+Author: ideapark.kz
+Author URI: http://ideapark.kz
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, theme-options, translation-ready
+*/
+
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Change the text appearance of the product slider */
+
+#home-slider .inner h3 {
+background-color: white;
+color: #000;
+opacity: 0.8;
+line-height: 60px;
+}
+
+#home-slider .inner h4 {
+background: white;
+opacity: 0.8;
+line-height: 30px;
+padding: 5px !important;
+}
+
+/* Change the visability of meta data below the buy button on product pages */
+
+.product_meta {
+    display: visible;
+}
+
+span.sku_wrapper {
+display: none !important;
+}
+
+/* Change the size of the header logo */
+
+.main-menu .logo, .main-menu .logo img {
+max-width: 200px !Important;
+}
+
+/* Change font size in cart to keep background intact */
+
+.order-total .woocommerce-Price-amount.amount {
+font-size: 22px !important;
+}
+
+/* Change the appearance for the WooCommerce Product Add-ons plugin */
+
+.woocommerce .ip-product-container .summary select {
+opacity: 1.0;
+width: 270px;
+padding: 13px 35px 13px 18px;
+border: 1px solid #979797;
+border-radius: 4px;
+}
+
+.woocommerce .ip-product-container .product-addon p {
+margin-top: 0;
+}
+
+.woocommerce .ip-product-container .product-addon h3.addon-name {
+display: block;
+font-size: 11px;
+color: #9a9a9a;
+letter-spacing: 0.4px;
+text-transform: uppercase;
+margin-bottom: 0;
+font-weight: normal;
+}

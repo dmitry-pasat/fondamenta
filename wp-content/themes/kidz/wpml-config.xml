@@ -1,0 +1,8 @@
+<wpml-config>
+	<admin-texts>
+        <key name="theme_mods_kidz">
+            <key name="footer_contacts" />
+            <key name="footer_copyright" />
+        </key>
+	</admin-texts>
+</wpml-config>

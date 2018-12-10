@@ -1,0 +1,82 @@
+# Copyright (C) 2018 Kidz Theme Wishlist
+# This file is distributed under the same license as the Kidz Theme Wishlist package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kidz Theme Wishlist 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ideapark-wishlist\n"
+"POT-Creation-Date: 2018-02-10 02:05:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ideapark-wishlist.php:24
+msgid "This plugin works only with Kidz theme"
+msgstr ""
+
+#: includes/class-ideapark-wishlist.php:149
+msgid "Wishlist"
+msgstr ""
+
+#: includes/class-ideapark-wishlist.php:149
+#: includes/class-ideapark-wishlist.php:261
+msgid "Remove from Wishlist"
+msgstr ""
+
+#: includes/class-ideapark-wishlist.php:149
+#: includes/class-ideapark-wishlist.php:260
+msgid "Add to Wishlist"
+msgstr ""
+
+#: templates/wishlist.php:37
+msgid "Product"
+msgstr ""
+
+#: templates/wishlist.php:40
+msgid "Price"
+msgstr ""
+
+#: templates/wishlist.php:43
+msgid "Stock Status"
+msgstr ""
+
+#: templates/wishlist.php:58
+msgid "Remove"
+msgstr ""
+
+#: templates/wishlist.php:86
+msgid "Share Wishlist:"
+msgstr ""
+
+#: templates/wishlist.php:109
+msgid "Share Link:"
+msgstr ""
+
+#: templates/wishlist.php:129
+msgid "The wishlist is currently empty."
+msgstr ""
+
+#: templates/wishlist.php:132
+msgid "Click the %s icons to add products"
+msgstr ""
+
+#: templates/wishlist.php:137
+msgid "Return To Shop"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Kidz Theme Wishlist"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Woocommerce Wishlist plugin for the Kidz theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ideapark.kz"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ideapark.kz"
+msgstr ""
